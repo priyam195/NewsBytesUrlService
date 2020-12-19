@@ -2,9 +2,9 @@ This is a Python FLask application which is using reddis.
 You can install python , flask and reddis in your local system
 
 - setup
-  - 1. run a python virtual Enviroment in CMD
-  - 2. go to the NewsBytesURLServie/src directory
-  - 3. run command in cmd : flask run
+  -  run a python virtual Enviroment in CMD
+  -  go to the NewsBytesURLServie/src directory
+  -  run command in cmd : flask run
 
 ## There are two end points
 
