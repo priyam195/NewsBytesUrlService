@@ -18,7 +18,7 @@ Reddis can we used as cache because it is in memeory. Reddis is also highly scal
 
 ## There are two end points
 
-### 1. /hashURL endpoint
+### 1. /hashUrl endpoint
 return 6 digit hash of long URL
 it also returns the same hash for same URL.
 and never return same hash for two diffrent URL
