@@ -1,14 +1,14 @@
 # NewsBytesUrlService
-This service is used to convert long length URL to short 6 character hash
-key is the hash 6 character hash and value is our URL.
+This service is used to convert long length URL to short 6 character hash.
+The key is the 6 character hash and value is our URL.
 The Idea is to use this hash instead of complete URL this will save space and also less chances of error by the user while copying or writing  it.
 All users can maintain the hash instead of complte URL
 
 ## Hashing logic
-### URL is encoded with md5hash which gives 32 chareters.
-### This md5hash is further reduced to smaller length by encoding it to base64
-### We use the first 6 charecter of it as our final hash
-### Hash collision is also handled in the code by appending the url with string ("**")
+1 URL is encoded with md5hash which gives 32 characters.
+2 This md5hash is further reduced to smaller length by encoding it to base64
+3 We use the first 6 charecter of it as our final hash
+4 Hash collision is also handled in the code by appending the url with string ("**")
 
 eg https://newsbyteurl.com/M3gthf
 the last 6 charecter can be of hash.
