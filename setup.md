@@ -3,7 +3,7 @@ You can install python , flask and reddis in your local system
 
 - setup
   -  run a python virtual Enviroment in CMD
-  -  go to the NewsBytesURLServie/src directory
+  -  clone this repository go to  NewsBytesURLService/src directory
   -  run command in cmd : flask run
 
 ## There are two end points
